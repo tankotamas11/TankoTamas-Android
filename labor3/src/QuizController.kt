@@ -10,7 +10,7 @@ class QuizController {
     private var counter = 1
 
     init {
-        val input : InputStream = File("bemenet.txt").inputStream()
+        val input : InputStream = File("C:\\Users\\tanko\\OneDrive\\Dokumentumok\\FFT\\TankoTamas-Android\\bemenet.txt").inputStream()
         input.bufferedReader().forEachLine {
             if (counter == 1) {
                 question = it
